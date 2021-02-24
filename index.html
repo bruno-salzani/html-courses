@@ -1,29 +1,148 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
 <head>
-
-    <!-- CONFIG -->
-    <meta charset="utf-8">
-    <title>Title</title>
-
-    <!-- CDN -->
-    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.blue-pink.min.css" />     
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap">  
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
-
-    <!-- CSS -->
-    <link rel="stylesheet" href="src/assets/css/bootstrap/bootstrap.css">
-    <link rel="stylesheet" href="src/assets/css/fontawesome/all.css">
-    <link rel="stylesheet" href="src/css/style.css">
-
-    <!-- JS -->
-    <script src="src/assets/js/jquery-3.4.1.min.js"></script>
-    <script src="src/assets/js/bootstrap/bootstrap.min.js"></script>
-
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Alurinha | Cursos online</title>
+	<link rel="stylesheet" href="src/css/reset.css">
+	<link rel="stylesheet" href="src/css/style.css">
 </head>
 <body>
+	<header class="header">
+		<div class="container">
+			<h1 class="header__title">
+				<a href="#">Alurinha</a>
+			</h1>
 
+			<nav class="header__nav">
+				<a class="header__link" href="#">Início</a>
+				<a class="header__link" href="#">Cursos</a>
+				<a class="header__link" href="#">Sobre nós</a>
+				<a class="header__link" href="#">Contato</a>
+				<a class="header__link header__link-app" href="#">Nosso APP</a>
+			</nav>
+		</div>
+	</header>
 
+	<main class="main-content">
+		<div class="container">
+			<h2 class="subtitle">Nossos cursos</h2>
+
+			<nav>
+				<ul class="main-content__list">
+					<li class="main-content__link"><a href="#">Java</a></li>
+					<li class="main-content__link"><a href="#">PHP</a></li>
+					<li class="main-content__link"><a href="#">Ruby on Rails</a></li>
+					<li class="main-content__link"><a href="#">.NET</a></li>
+					<li class="main-content__link"><a href="#">Pascal</a></li>
+					<li class="main-content__link"><a href="#">Flexbox</a></li>
+					<li class="main-content__link"><a href="#">Desenvolvimento Web</a></li>
+					<li class="main-content__link"><a href="#">Java Web</a></li>
+					<li class="main-content__link"><a href="#">Javascript</a></li>
+					<li class="main-content__link"><a href="#">AngularJS</a></li>
+					<li class="main-content__link"><a href="#">TDD com C</a></li>
+					<li class="main-content__link"><a href="#">Redes de computadores</a></li>
+					<li class="main-content__link"><a href="#">MySQL</a></li>
+					<li class="main-content__link"><a href="#">MariaDB</a></li>
+					<li class="main-content__link"><a href="#">Postegres</a></li>
+					<li class="main-content__link"><a href="#">Lógica de programação</a></li>
+					<li class="main-content__link"><a href="#">Lógica de programação</a></li>
+					<li class="main-content__link"><a href="#">Lógica de programação</a></li>
+				</ul>
+			</nav>
+		</div>
+
+		<section class="video">
+			<div class="container">
+				<iframe class="video__frame" width="560" height="315" src="https://www.youtube.com/embed/bIlOsJzBVaY?list=PLh2Y_pKOa4UcF1BYPJR3EIMRi3nWAUxIp" frameborder="0" allowfullscreen></iframe>
+				
+				<div class="video__description">
+					<h2 class="video__title">Vantagens do Alurinha</h2>
+					<ul class="video__list">
+						<li class="video__item">Estude onde quiser</li>
+						<li class="video__item">Novos cursos todos os meses</li>
+						<li class="video__item">Cursos compatíveis com o mercado</li>
+					</ul>
+					<button class="video__button">Cadastre-se já</button>
+				</div>
+			</div>
+		</section>
+
+	</main>
+
+	<footer class="footer">
+		<div class="container">
+			<section class="footer__navmap">
+				<h3 class="subtitle">Mapa de cursos</h3>
+
+				<nav class="footer__navmap-list">
+					<h4 class="navmap__title navmap__title--backend">Linguagens Backend</h4>
+					<a class="footer__navmap-link" href="#">Java</a>
+					<a class="footer__navmap-link" href="#">PHP</a>
+					<a class="footer__navmap-link" href="#">Pascal</a>
+					<a class="footer__navmap-link" href="#">Scala</a>
+					<a class="footer__navmap-link" href="#">Python</a>
+					<a class="footer__navmap-link" href="#">Java Web</a>
+					<a class="footer__navmap-link" href="#">Assembly</a>
+					<a class="footer__navmap-link" href="#">Lógica de programação</a>
+
+					<h4 class="navmap__title navmap__title--frontend">Linguagens Frontend</h4>
+					<a class="footer__navmap-link" href="#">Flexbox</a>
+					<a class="footer__navmap-link" href="#">Desenvolvimento Web</a>
+					<a class="footer__navmap-link" href="#">Javascript</a>
+					<a class="footer__navmap-link" href="#">AngularJS</a>
+					<a class="footer__navmap-link" href="#">ReactJS</a>
+					<a class="footer__navmap-link" href="#">Polymer</a>
+					
+					<h4 class="navmap__title navmap__title--framework">Frameworks</h4>
+					<a class="footer__navmap-link" href="#">Ruby on Rails</a>
+					<a class="footer__navmap-link" href="#">VRaptor</a>
+					<a class="footer__navmap-link" href="#">SpringMVC</a>
+					<a class="footer__navmap-link" href="#">NodeJS</a>
+					<a class="footer__navmap-link" href="#">Django</a>
+					<a class="footer__navmap-link" href="#">Bootstrap3</a>
+
+					<h4 class="navmap__title navmap__title--database">Banco de dados</h4>
+					<a class="footer__navmap-link" href="#">MySQL</a>
+					<a class="footer__navmap-link" href="#">MariaDB</a>
+					<a class="footer__navmap-link" href="#">Postegres</a>
+
+				</nav>
+			</section>
+
+		</div>
+
+		<section class="footer-patreons">
+			<div class="container">
+				<ul class="footer-patreons__list">
+					<li>
+						<a class="footer-patreons__list-link patrocinadores-list-link-alura" href="#">
+							<img src="img/logos/alura.svg" alt="Logo da Alura">
+						</a>
+					</li>
+					<li>
+						<a class="footer-patreons__list-link patrocinadores-list-link-caelum" href="#">
+							<img src="img/logos/caelum.svg" alt="Logo da Caelum">
+						</a>
+					</li>
+					<li>
+						<a class="footer-patreons__list-link patrocinadores-list-link-casaDoCodigo" href="#">
+							<img src="img/logos/cdc.svg" alt="Logo da Casa do Código">
+						</a>
+					</li>
+				</ul>
+				<form class="footer-contact" action="#">
+					<fieldset>
+						<legend class="footer-contact__legend" for="email-contact">Entre em contato conosco</legend>
+						<div class="footer-contact__fieldset"> 
+							<input class="footer-contact__emailInput" type="email" name="email-contact" id="email-contact">
+							<button class="footer-contact__submit" type="submit">Enviar</button>
+						</div>
+					</fieldset>
+				</form>
+			</div>
+		</section>
+	</footer>
 
 </body>
 </html>
