@@ -1,5 +1,5 @@
 body {
-	background-color: #F2F5F7;
+	background-color: #edf1f5;
 	font-family: 'Open Sans',Arial,sans-serif;
 }
 
@@ -11,12 +11,18 @@ body {
 .header {
 	background-color: #FFF;
 	padding: 20px 0;
+	position: fixed;
+	width: 100%;
+	z-index: 9999;
+	box-shadow: 0 2px 5px -3px rgb(0 0 0 / 50%);
 }
 
 .header__title {
+	color: #616162;
 	font-weight: bold;
 	font-size: 2em;
 	margin-bottom: 20px;
+	font-family: "Rubik-Medium";
 }
 
 .header__title a {
@@ -49,11 +55,11 @@ body {
 }
 
 .main-content {
-	margin-bottom: 20px;
 }
 
 .main-content .container {
-	padding: 3rem 0;
+	padding-top: 8rem;
+	padding-bottom: 5.5rem;
 }
 
 .main-content__list {
@@ -62,8 +68,10 @@ body {
 }
 
 .subtitle {
+	color: #616162;
 	font-weight: bold;
 	font-size: 32px;
+	font-family: "Rubik-Medium";
 	margin-bottom: 10px;
 	text-align: center;
 }
@@ -107,12 +115,12 @@ body {
 
 .main-content__link:nth-child(even) a:before {
 	margin-top: 1.5rem;
-	background: url(../../src/assets/img/background1.svg) no-repeat;	
+	background: url(../assets/img/background1.svg) no-repeat;	
 }
 
 .main-content__link:nth-child(odd) a:before {
 	margin-top: 1.5rem;
-	background: url(../../src/assets/img/background2.svg) no-repeat;
+	background: url(../assets/img/background2.svg) no-repeat;
 }
 
 .footer {
@@ -229,6 +237,7 @@ body {
 
 .video .container {
 	color: #FFF;
+	display: flex;
 }
 
 .video__title {
@@ -239,6 +248,10 @@ body {
 .video__description {
 	font-size: 1.3em;
 	line-height: 2;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	flex-grow: 1;
 }
 
 .video__button {
@@ -250,6 +263,10 @@ body {
 	height: 50px;
 	font-size: .8em;
 	outline: none;
+}
+
+.video__list {
+	flex-grow: 1;
 }
 
 .footer-contact__legend {
@@ -305,7 +322,7 @@ body {
 	}
 
 	.video__description {
-		margin-left: 1.5em;
+		margin-left: 20%;
 	}
 
 }
@@ -338,6 +355,15 @@ body {
 
 }
 
+
+
+@media(max-width: 1200px) {
+	.video__description {
+		margin-left: 3rem;
+	}
+
+}
+
 @media(max-width: 769px) {
 
 	.header .container {
@@ -350,6 +376,10 @@ body {
 		flex-direction: column;
 	}
 
+	.main-content .container:first-child {
+		padding-top: 23rem;
+	}
+
 	.main-content__list {
 		flex-direction: column;
 	}
@@ -358,4 +388,9 @@ body {
 		width: 100%;
 	}
 
+}
+
+@font-face {
+    font-family: "Rubik-Medium";
+    src: url("../assets/fonts/Rubik-Medium.ttf") format("woff2");
 }
