@@ -15,7 +15,7 @@
 ## Projeto
 
 ### Demonstração
-Para acessar a demonstração do projeto <a href="https://bruno-salzani.github.io/project-html-two/" target="_blank">Clique aqui</a>
+Para acessar a demonstração do projeto <a href="https://bruno-salzani.github.io/project-html-courses/" target="_blank">Clique aqui</a>
 
 ### Descrição
 Este projeto tem como objetivo aplicar e consolidar o conhecimento de FLEXBOX adquirido através dos seguintes cursos:
