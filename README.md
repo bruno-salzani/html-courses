@@ -7,7 +7,7 @@ Este projeto tem como objetivo aplicar e consolidar o conhecimento de FLEXBOX ad
 <a href="https://cursos.alura.com.br/course/posicione-elementos-com-flexbox" target="_blank">HTML FLEXBOX</a>
 
 ### Demonstração
-Para acessar a demonstração do projeto <a href="https://bruno-salzani.github.io/project-html-courses/" target="_blank">Clique aqui</a>
+Para acessar a demonstração do projeto <a href="https://learningcourse.netlify.app/" target="_blank">Clique aqui</a>
 
 
 ![GitHub Logo](/src/assets/img/thumb_1.jpg)
